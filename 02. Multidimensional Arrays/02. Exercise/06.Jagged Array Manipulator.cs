@@ -14,7 +14,6 @@ for (int row = 0; row < rows; row++)
 
 for (int row = 0; row < rows - 1; row++)
 {
-
     if (jaggedArray[row].Length == jaggedArray[row + 1].Length)
     {
         Multiply(jaggedArray[row]);
@@ -25,7 +24,6 @@ for (int row = 0; row < rows - 1; row++)
         Divide(jaggedArray[row]);
         Divide(jaggedArray[row + 1]);
     }
-    
 }
 
 string command = string.Empty;
